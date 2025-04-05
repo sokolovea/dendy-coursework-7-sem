@@ -1,0 +1,97 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sprites\bush.png" />
+    <None Remove="Sprites\indestructible_wall.png" />
+    <None Remove="Sprites\staff.png" />
+    <None Remove="Sprites\Tanks\Armored\tank_down.png" />
+    <None Remove="Sprites\Tanks\Armored\tank_left.png" />
+    <None Remove="Sprites\Tanks\Armored\tank_right.png" />
+    <None Remove="Sprites\Tanks\Armored\tank_up.png" />
+    <None Remove="Sprites\Tanks\General\tank_down.png" />
+    <None Remove="Sprites\Tanks\General\tank_left.png" />
+    <None Remove="Sprites\Tanks\General\tank_right.png" />
+    <None Remove="Sprites\Tanks\General\tank_up.png" />
+    <None Remove="Sprites\Tanks\HighSpeed\tank_down.png" />
+    <None Remove="Sprites\Tanks\HighSpeed\tank_left.png" />
+    <None Remove="Sprites\Tanks\HighSpeed\tank_right.png" />
+    <None Remove="Sprites\Tanks\HighSpeed\tank_up.png" />
+    <None Remove="Sprites\Tanks\Player\tank_down.png" />
+    <None Remove="Sprites\Tanks\Player\tank_left.png" />
+    <None Remove="Sprites\Tanks\Player\tank_right.png" />
+    <None Remove="Sprites\Tanks\Player\tank_up.png" />
+    <None Remove="Sprites\Tanks\RapidFire\tank_down.png" />
+    <None Remove="Sprites\Tanks\RapidFire\tank_left.png" />
+    <None Remove="Sprites\Tanks\RapidFire\tank_right.png" />
+    <None Remove="Sprites\Tanks\RapidFire\tank_up.png" />
+    <None Remove="Sprites\wall.png" />
+    <None Remove="Sprites\water.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseController\BaseController.csproj" />
+    <ProjectReference Include="..\BaseMenuModel\BaseMenuModel.csproj" />
+    <ProjectReference Include="..\BaseMenuView\BaseMenuView.csproj" />
+    <ProjectReference Include="..\Engine\Engine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sprites\bush.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\indestructible_wall.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\staff.png" />
+    <Resource Include="Sprites\Tanks\Armored\tank_down.png" />
+    <Resource Include="Sprites\Tanks\Armored\tank_left.png" />
+    <Resource Include="Sprites\Tanks\Armored\tank_right.png" />
+    <Resource Include="Sprites\Tanks\Armored\tank_up.png" />
+    <Resource Include="Sprites\Tanks\General\tank_down.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\General\tank_left.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\General\tank_right.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\General\tank_up.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\HighSpeed\tank_down.png" />
+    <Resource Include="Sprites\Tanks\HighSpeed\tank_left.png" />
+    <Resource Include="Sprites\Tanks\HighSpeed\tank_right.png" />
+    <Resource Include="Sprites\Tanks\HighSpeed\tank_up.png" />
+    <Resource Include="Sprites\Tanks\Player\tank_down.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\Player\tank_left.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\Player\tank_right.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\Player\tank_up.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\Tanks\RapidFire\tank_down.png" />
+    <Resource Include="Sprites\Tanks\RapidFire\tank_left.png" />
+    <Resource Include="Sprites\Tanks\RapidFire\tank_right.png" />
+    <Resource Include="Sprites\Tanks\RapidFire\tank_up.png" />
+    <Resource Include="Sprites\wall.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\water.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

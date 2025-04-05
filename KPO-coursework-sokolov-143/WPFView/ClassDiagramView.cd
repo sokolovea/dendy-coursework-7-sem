@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WPFView.ViewGameWPF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBACAAEAAgAAiwCAAAAAAAAAAACAAAAAMAAigIQAQCI=</HashCode>
+      <FileName>ViewGameWPF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WPFView.ViewMenuDifficultyWPF" Collapsed="true">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAIAAAgIAAIAAAAAAAAAAAAAAAAACAACAAAA=</HashCode>
+      <FileName>ViewMenuDifficultyWPF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFView.ViewMenuGameEndWPF" Collapsed="true">
+    <Position X="14.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAAAAABAAAAAAAAACBICAAAA=</HashCode>
+      <FileName>ViewMenuGameEndWPF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFView.ViewMenuHelpWPF" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAgAAAIAAAAAAAABAAAAAAAADAACAAAA=</HashCode>
+      <FileName>ViewMenuHelpWPF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFView.ViewMenuItemWPF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAEAAAAAAEMAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ViewMenuItemWPF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WPFView.ViewMenuMainWPF" Collapsed="true">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAAAAAABAAAAAAAACAACAAAA=</HashCode>
+      <FileName>ViewMenuMainWPF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFView.ViewMenuPauseWPF" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAAAAIAAAgAAAIAAAAAAAAAAAAAAAAACAACAAAA=</HashCode>
+      <FileName>ViewMenuPauseWPF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFView.ViewMenuRecordsTableWPF" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAkAAAIAAIAAAAABAAAAAAAACAACAAAA=</HashCode>
+      <FileName>ViewMenuRecordsTableWPF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WPFView.ViewSubMenuItemWPF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewSubMenuItemWPF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WPFView.ViewWPF" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAEAAAgAAAAAAAEAAAAAAAAAAAAAgAAAAGAAAAAA=</HashCode>
+      <FileName>ViewWPF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseMenuView.ViewMenu" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseMenuView.ViewMenuItem" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseMenuView.ViewSubMenuItem" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="WPFView.IMenu" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BaseMenuView.IViewBase" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

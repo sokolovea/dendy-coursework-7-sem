@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Engine.GameCurrentStateAndSettingsSingleton" Collapsed="true">
+    <Position X="11" Y="5.25" Width="3" />
+    <NestedTypes>
+      <Delegate Name="Engine.GameCurrentStateAndSettingsSingleton.dGameEnd" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameCurrentStateAndSettingsSingleton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Engine.GameCurrentStateAndSettingsSingleton.dVoid" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameCurrentStateAndSettingsSingleton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEEBIIQAAAABIAAAQIAAQEABAAGAAARAkAiCAgAQCA=</HashCode>
+      <FileName>GameCurrentStateAndSettingsSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.GameModel" Collapsed="true">
+    <Position X="2.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgIYAAKIAQAABCAgACAIEACgMASAEIAAIAWJw8AA=</HashCode>
+      <FileName>GameModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.LevelGenerator" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAEAAAAAIAAAAAAAAQAAAAAAAgAAAAAABAAAAAAIA=</HashCode>
+      <FileName>LevelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.PlayerModel" Collapsed="true">
+    <Position X="6.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAIAAIABAAAAAAAAAAAQAAAAAIQAAABABAAAA=</HashCode>
+      <FileName>PlayerModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.StaticObjects.AbstractStaticObject" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIBBAAAAAAAgEAAAAADAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObjects\AbstractStaticObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.StaticObjects.Bush" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObjects\Bush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.StaticObjects.IndestructibleWall" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObjects\IndestructibleWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.StaticObjects.Staff" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObjects\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.StaticObjects.Wall" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObjects\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.StaticObjects.Water" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticObjects\Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Records.Record" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAQgAgQAAAAAAAAAAAIABAAAAAAAAAAA=</HashCode>
+      <FileName>Records\Recordcs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Records.RecordManager" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgIAAAAREAAEAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Records\RecordManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Field.Cell" Collapsed="true">
+    <Position X="8" Y="9.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAEAIAAACAABgAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Field\Cell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Field.GameField" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gIBAgAAAAAAAAAAgQAAAAAABAEAAAIAAACAIAEAAAIA=</HashCode>
+      <FileName>Field\GameField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Field.Point" Collapsed="true">
+    <Position X="4.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Field\Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.Tank.AbstractTank" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACADEAAEokEEAAAkQAACQAEBEBCAAAAAgABBJGAM=</HashCode>
+      <FileName>DynamicObjects\Tank\AbstractTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.Tank.ArmoredTank" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicObjects\Tank\ArmoredTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.Tank.GeneralTank" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicObjects\Tank\GeneralTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.Tank.HighSpeedTank" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicObjects\Tank\HighSpeedTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.Tank.RapidFireTank" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicObjects\Tank\RapidFireTank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.AbstractDynamicObject" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAABASAgAAAACBAAEABABAAAAGAJAAIAAAAAAQ=</HashCode>
+      <FileName>DynamicObjects\AbstractDynamicObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.DynamicObjects.Bullet" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAADAAAAAACIAAAAAAAAAAAAAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>DynamicObjects\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.ConcreteStrategy.BushCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteStrategy\BushCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.ConcreteStrategy.EmptyCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteStrategy\EmptyCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.ConcreteStrategy.IndestructibleWallCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteStrategy\IndestructibleWallCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.ConcreteStrategy.StaffCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteStrategy\StaffCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.ConcreteStrategy.WallCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteStrategy\WallCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.ConcreteStrategy.WaterCellCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteStrategy\WaterCellCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Engine.ICellCreatorFabric" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICellCreatorFabric.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
